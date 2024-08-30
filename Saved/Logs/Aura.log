@@ -1072,3 +1072,94 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.08.30-15.00.46:635][833]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1152.0625 MiB, MemoryLimit = 594.949219 MiB 
 [2024.08.30-15.00.48:264][917]LogEditorClassViewer: Warning: Class /Game/Blueprints/Character/Aura/ABP_Aura.PLACEHOLDER-CLASS__BP_AuraCharacter_C_0 has parent , but this parent is not found. The Class will not be shown in ClassViewer.
 [2024.08.30-15.00.52:531][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.08.30-15.04.03:335][375]Cmd: CLOSE_SLATE_MAINFRAME
+[2024.08.30-15.04.03:355][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.08.30-15.04.05:291][375]LogSlate: Window 'Save Content' being destroyed
+[2024.08.30-15.04.05:299][375]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.30-15.04.05:415][375]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_AuraGameMode] ([2] browsable assets)...
+[2024.08.30-15.04.05:415][375]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_AuraGameMode]
+[2024.08.30-15.04.05:415][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Game/BP_AuraGameMode" FILE="../../../../../../repositories/Aura/Content/Blueprints/Game/BP_AuraGameMode.uasset" SILENT=true
+[2024.08.30-15.04.05:419][375]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_AuraGameMode
+[2024.08.30-15.04.05:419][375]LogSavePackage: Moving '../../../../../../repositories/Aura/Saved/BP_AuraGameModeB3092A2441816B50CBBCE09B61E26553.tmp' to '../../../../../../repositories/Aura/Content/Blueprints/Game/BP_AuraGameMode.uasset'
+[2024.08.30-15.04.05:428][375]LogFileHelpers: InternalPromptForCheckoutAndSave took 129.722 ms (total: 288.876 ms)
+[2024.08.30-15.04.05:465][375]LogStall: Shutdown...
+[2024.08.30-15.04.05:473][375]LogStall: Shutdown complete.
+[2024.08.30-15.04.05:516][375]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.08.30-15.04.05:517][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.30-15.04.05:588][375]LogSlate: Window 'Aura - Unreal Editor' being destroyed
+[2024.08.30-15.04.05:804][376]LogContentValidation: Display: Starting to validate 1 assets
+[2024.08.30-15.04.05:804][376]LogContentValidation: Enabled validators:
+[2024.08.30-15.04.05:804][376]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.30-15.04.05:804][376]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.30-15.04.05:804][376]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.30-15.04.05:804][376]LogContentValidation: Display: Validating asset /Game/Blueprints/Game/BP_AuraGameMode.BP_AuraGameMode
+[2024.08.30-15.04.05:804][376]AssetCheck: /Game/Blueprints/Game/BP_AuraGameMode Validating asset
+[2024.08.30-15.04.05:829][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.08.30-15.04.05:836][376]Cmd: QUIT_EDITOR
+[2024.08.30-15.04.05:836][376]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.08.30-15.04.06:010][377]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.08.30-15.04.06:011][377]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.08.30-15.04.06:012][377]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.08.30-15.04.06:017][377]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.30-15.04.06:018][377]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.30-15.04.06:018][377]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.08.30-15.04.06:018][377]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.08.30-15.04.06:036][377]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.08.30-15.04.06:042][377]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.08.30-15.04.06:042][377]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.30-15.04.06:171][377]LogStudioTelemetry: Ended StudioTelemetry Session
+[2024.08.30-15.04.06:175][377]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2024.08.30-15.04.06:175][377]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2024.08.30-15.04.06:175][377]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2024.08.30-15.04.06:181][377]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.08.30-15.04.06:181][377]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.08.30-15.04.06:181][377]LogAudio: Display: Audio Device unregistered from world 'StartupMap'.
+[2024.08.30-15.04.06:181][377]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2024.08.30-15.04.06:184][377]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.08.30-15.04.06:188][377]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.08.30-15.04.06:204][377]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2024.08.30-15.04.06:204][377]LogAudio: Display: Audio Device Manager Shutdown
+[2024.08.30-15.04.06:205][377]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.08.30-15.04.06:209][377]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.08.30-15.04.06:211][377]LogExit: Preparing to exit.
+[2024.08.30-15.04.06:269][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:275][377]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:276][377]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:276][377]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:276][377]LogPython: Display: Object '/Engine/PythonTypes.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:276][377]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.08.30-15.04.06:729][377]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.08.30-15.04.06:755][377]LogExit: Editor shut down
+[2024.08.30-15.04.06:756][377]LogExit: Transaction tracking system shut down
+[2024.08.30-15.04.07:070][377]LogExit: Object subsystem successfully closed.
+[2024.08.30-15.04.07:142][377]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.08.30-15.04.07:807][377]MemoryProfiler: Shutdown
+[2024.08.30-15.04.07:809][377]NetworkingProfiler: Shutdown
+[2024.08.30-15.04.07:809][377]LoadingProfiler: Shutdown
+[2024.08.30-15.04.07:810][377]TimingProfiler: Shutdown
+[2024.08.30-15.04.08:077][377]LogOpenImageDenoise: OIDN shutting down
+[2024.08.30-15.04.08:400][377]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2024.08.30-15.04.08:428][377]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.08.30-15.04.08:428][377]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2FEFEB2E-4AB4-8732-3B16-0DA171D1DAA4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.4.4-35576357%2B%2B%2BUE5%2BRelease-5.4&UserID=15a420a3461901be6e384d9b056fd6d7%7C74e4a24097404e88a97a4611c0a14624%7C9ce3a69c-b5d7-484b-abc9-b1c5319ccc74&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2024.08.30-15.04.08:440][377]RenderDocPlugin: plugin has been unloaded.
+[2024.08.30-15.04.08:445][377]LogXGEController: Cleaning working directory: C:/Users/potat/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2024.08.30-15.04.08:453][377]LogPakFile: Destroying PakPlatformFile
+[2024.08.30-15.04.08:588][377]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.08.30-15.04.08:641][377]LogExit: Exiting.
+[2024.08.30-15.04.08:669][377]Log file closed, 08/30/24 10:04:08

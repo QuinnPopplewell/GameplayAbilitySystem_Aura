@@ -7,9 +7,9 @@
 #include "Interaction/EnemyInterface.h"
 #include "AuraEnemy.generated.h"
 
-/**
- * 
- */
+class UAbilitySystemComponent;
+class UAttributeSet;
+
 UCLASS()
 class AURA_API AAuraEnemy : public AAuraCharacterBase, public IEnemyInterface
 {
