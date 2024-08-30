@@ -6,6 +6,8 @@
 #include "Character/AuraCharacterBase.h"
 #include "AuraCharacter.generated.h"
 
+class AAuraPlayerState;
+
 
 UCLASS()
 class AURA_API AAuraCharacter : public AAuraCharacterBase
@@ -14,12 +16,13 @@ class AURA_API AAuraCharacter : public AAuraCharacterBase
 
 public:
 	AAuraCharacter();
-
-protected:
+	virtual void PossessedBy(AController* NewController) override;
+	virtual void OnRep_PlayerState() override;
 
 private:
 	UPROPERTY(EditAnywhere)
 	float CharRotationRate = 400.f;
 
-	
+	void InitAbilityActorInfo();
+
 };
