@@ -19,13 +19,13 @@ protected:
 	UPROPERTY(BlueprintReadOnly, Category="WidgetController")
 	TObjectPtr<APlayerController> PlayerController;
 
-	UProperty(BlueprintReadOnly, Category="WidgetController")
+	UPROPERTY(BlueprintReadOnly, Category="WidgetController")
 	TObjectPtr<APlayerState> PlayerState;
 
-	UProperty(BlueprintReadOnly, Category="WidgetController")
+	UPROPERTY(BlueprintReadOnly, Category="WidgetController")
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
 
-	UProperty(BlueprintReadOnly, Category="WidgetController")
+	UPROPERTY(BlueprintReadOnly, Category="WidgetController")
 	TObjectPtr<UAttributeSet> AttributeSet;
 	
 };
