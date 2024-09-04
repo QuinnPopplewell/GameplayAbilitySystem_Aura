@@ -51,6 +51,7 @@ void AAuraCharacter::InitAbilityActorInfo()
     AuraPlayerState->GetAbilitySystemComponent()->InitAbilityActorInfo(AuraPlayerState, this);
     AbilitySystemComponent = AuraPlayerState->GetAbilitySystemComponent();
     AttributeSet = AuraPlayerState->GetAttributeSet();
+    Cast<UAuraAbilitySystemComponent>(AuraPlayerState->GetAbilitySystemComponent())->AbilityActorInfoSet();
 
     //Initialize the overlay from the HUD, getting it from the player controller
     if (AAuraPlayerController* AuraPlayerController = Cast<AAuraPlayerController>(GetController()))

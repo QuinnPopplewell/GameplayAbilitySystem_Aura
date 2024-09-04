@@ -23,6 +23,6 @@ private:
 	UPROPERTY(EditAnywhere)
 	float CharRotationRate = 400.f;
 
-	void InitAbilityActorInfo();
+	virtual void InitAbilityActorInfo() override;
 
 };
