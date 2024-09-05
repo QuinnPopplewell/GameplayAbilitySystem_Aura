@@ -48,6 +48,8 @@
 				"C:/repositories/Aura/Content/Blueprints/UI/Data/DT_MessageWidgetData.uasset",
 				"C:/repositories/Aura/Content/Blueprints/UI/Overlay/SubWidget/WBP_EffectMessage.uasset",
 				"C:/repositories/Aura/Content/Assets/UI/Globes/MI_HealthGlobe.uasset",
+				"C:/repositories/Aura/Content/Blueprints/AbilitySystem/Data/DT_InitialPrimaryValues.uasset",
+				"C:/repositories/Aura/Content/Blueprints/AbilitySystem/GameplayEffects/PrimaryAttributes/GE_AuraPrimaryAttributes.uasset",
 				"C:/repositories/Aura/Content/Blueprints/Actor/Potion/CT_PotionHeal.uasset",
 				"C:/repositories/Aura/Content/Blueprints/Actor/Potion/GE_CrystalHeal.uasset",
 				"C:/repositories/Aura/Content/Blueprints/Actor/Potion/GE_ManaCrystal.uasset",
