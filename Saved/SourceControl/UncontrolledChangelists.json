@@ -8,7 +8,20 @@
 				"C:/repositories/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.uasset",
 				"C:/repositories/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset",
 				"C:/repositories/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset",
-				"C:/repositories/Aura/Content/Blueprints/AbilitySystem/Data/DA_AttributeInfo.uasset"
+				"C:/repositories/Aura/Content/Blueprints/AbilitySystem/Data/DA_AttributeInfo.uasset",
+				"C:/repositories/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset",
+				"C:/repositories/Aura/Content/Blueprints/AbilitySystem/GameplayAbilities/GA_TestGameplayAbility.uasset",
+				"C:/repositories/Aura/Content/Blueprints/Player/BP_AuraPlayerController.uasset",
+				"C:/repositories/Aura/Content/Blueprints/Input/IMC_AuraContext.uasset",
+				"C:/repositories/Aura/Content/Blueprints/Input/IA_RMB.uasset",
+				"C:/repositories/Aura/Content/Blueprints/Input/IA_1.uasset",
+				"C:/repositories/Aura/Content/Blueprints/Input/DA_AuraInputConfig.uasset",
+				"C:/repositories/Aura/Content/Blueprints/Input/IA_2.uasset",
+				"C:/repositories/Aura/Content/Blueprints/Input/IA_3.uasset",
+				"C:/repositories/Aura/Content/Blueprints/Input/IA_LMB.uasset",
+				"C:/repositories/Aura/Content/Blueprints/Input/IA_4.uasset",
+				"C:/repositories/Aura/Content/Blueprints/Input/InputActions/IMC_AuraContext.uasset",
+				"C:/repositories/Aura/Content/Blueprints/Input/IA_LMB2.uasset"
 			]
 		}
 	]
