@@ -133,6 +133,26 @@ public:
 	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, MaxMana);
 
 	/*
+	*	Resistances
+	*/
+	
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_FireResist, Category = "Secondary Attributes")
+	FGameplayAttributeData FireResist;
+	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, FireResist);
+
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_LightningResist, Category = "Secondary Attributes")
+	FGameplayAttributeData LightningResist;
+	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, LightningResist);
+
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_ArcaneResist, Category = "Secondary Attributes")
+	FGameplayAttributeData ArcaneResist;
+	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, ArcaneResist);
+
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_PhysicalResist, Category = "Secondary Attributes")
+	FGameplayAttributeData PhysicalResist;
+	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, PhysicalResist);
+
+	/*
 	*	Vital Attributes 
 	*/
 
@@ -145,7 +165,12 @@ public:
 	FGameplayAttributeData Mana;
 	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, Mana);
 
-	
+	/*
+	*	Meta Attributes
+	*/
+	UPROPERTY(BlueprintReadOnly, Category = "Meta Attributes")
+	FGameplayAttributeData IncomingDamage;
+	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, IncomingDamage);
 
 	UFUNCTION()
 	void OnRep_Health(const FGameplayAttributeData& OldHealth) const;
@@ -164,6 +189,22 @@ public:
 	
 	UFUNCTION()
 	void OnRep_Vigor(const FGameplayAttributeData& OldVigor) const;
+
+	/*
+	*	Resistances
+	*/
+
+	UFUNCTION()
+	void OnRep_FireResist(const FGameplayAttributeData& OldFireResist) const;
+
+	UFUNCTION()
+	void OnRep_LightningResist(const FGameplayAttributeData& OldLightningResist) const;
+
+	UFUNCTION()
+	void OnRep_ArcaneResist(const FGameplayAttributeData& OldArcaneResist) const;
+
+	UFUNCTION()
+	void OnRep_PhysicalResist(const FGameplayAttributeData& OldPhysicalResist) const;
 
 	/*
 	*	Secondary Attributes
@@ -202,4 +243,5 @@ public:
 private:
 	
 	void SetEffectProperties(const FGameplayEffectModCallbackData& Data, FEffectProperties& Props) const;
+	void ShowFloatingText(const FEffectProperties& Props, float Damage, bool bBlockedHit, bool bCriticalHit) const;
 };

@@ -12,6 +12,8 @@ void UOverlayWidgetController::BroadcastInitialValues()
 {
     const UAuraAttributeSet* AuraAttributeSet = Cast<UAuraAttributeSet>(AttributeSet);
 
+    //Set the initial values by broadcasting them
+
     OnHealthChanged.Broadcast(AuraAttributeSet->GetHealth());
     OnMaxHealthChanged.Broadcast(AuraAttributeSet->GetMaxHealth());
 
@@ -23,25 +25,27 @@ void UOverlayWidgetController::BindCallbacksToDependencies()
 {
     const UAuraAttributeSet* AuraAttributeSet = Cast<UAuraAttributeSet>(AttributeSet);
 
-    AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(
-        AuraAttributeSet->GetHealthAttribute()).AddLambda(
+    /*
+    *   Create a set of lambdas for each attribute to be broadcast
+    *   Each lambda is bound to GetGameplayAttributeValueChangeDelegate
+    *   with the callback of broadcasting On[attribute]Changed
+    */
+
+    AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(AuraAttributeSet->GetHealthAttribute()).AddLambda(
             [this](const FOnAttributeChangeData& Data)
             {
                 OnHealthChanged.Broadcast(Data.NewValue); 
             }
         );
 
-    AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(
-        AuraAttributeSet->GetMaxHealthAttribute()).AddLambda(
+    AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(AuraAttributeSet->GetMaxHealthAttribute()).AddLambda(
             [this](const FOnAttributeChangeData& Data)
             {
                 OnMaxHealthChanged.Broadcast(Data.NewValue); 
             }
         );
 
-    AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(
-        AuraAttributeSet->GetManaAttribute()).AddLambda(
-            [this](const FOnAttributeChangeData& Data)
+    AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(AuraAttributeSet->GetManaAttribute()).AddLambda([this](const FOnAttributeChangeData& Data)
             {
                 OnManaChanged.Broadcast(Data.NewValue); 
             }
